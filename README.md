@@ -13,3 +13,8 @@ I did this project to answer the question, 'Are podcasts in Brazil losing their 
 This project was born from data I collected using YouTube's API in the last project. The biggest podcast in Brazil, Studios Flow, was actually a studio with several podcasts. In this project, I analyzed which program from this company had the best engagement metrics and then tried to predict this engagement with Machine Learning using features such as: publication date, the program the podcast belonged to, and video duration. I built the first model with Random Forests and then with Neural Networks, but the models failed to make accurate predictions, as the features proved to be insufficient for making such predictions.
 
 **Tools used:** Youtube API, Pandas, Scikit-learn, TensorFlow, Numpy and Seaborn.
+
+## [Customer Analysis for Marketing](https://github.com/campos-Allan/marketing_project)
+This project analyzes customer data to prioritize marketing efforts based on churn probability, purchase value, and engagement (purchase frequency). Using a simulated dataset, it calculates a marketing score by normalizing and weighting these metrics (40% purchase value, 40% frequency, 20% inverse churn probability).
+
+**Tools used:** Pandas, Numpy, Matplotlib, Seaborn, and Scikit-learn.
